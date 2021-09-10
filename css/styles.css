@@ -4,7 +4,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 10;
 }
+
+
+
+.flex-container2 {
+    width: 100px;
+    margin-left: 20PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 6;
+
+}
+
+
 
 .user-card {
     width: 100%;
@@ -16,8 +31,81 @@
     overflow: hidden;
 }
 
+.user-card2 {
+
+  
+   
+   
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    
+}
+
+button{
+    
+        border-radius: 50%;
+        padding: 50px;
+        display: flex;
+        position: relative;
+    
+}
+
+.user-card3 {
+    position: relative;
+    bottom:20px;
+    left: 900px;
+    width: 250px;
+    padding: 200px;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.user-card4 {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
 .card-header {
     background-color: #17a2b8;
+    height: 125px;
+    width: auto;
+    margin-bottom: 70px;
+    align-content: stretch;
+}
+
+.card-header2 {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    background-color: #373b3b;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+  
+    
+}
+.card-header3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #373b3b;
+    height: 125px;
+    margin-bottom: 70px;
+}
+.card-header4 {
+    display: flex;
+    flex-direction: row;
+    background-color: #373b3b;
     height: 125px;
     margin-bottom: 70px;
 }
@@ -49,5 +137,3 @@
 a {
     color: #3a81e6;
 }
-Files
-UserCard.git (Sep 06-Sep 17, 2021 Schedule)
