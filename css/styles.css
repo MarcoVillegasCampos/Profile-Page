@@ -2,6 +2,7 @@
     width: 800px;
     margin-left: 100PX;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     flex: 10;
@@ -13,6 +14,7 @@
     width: 100px;
     margin-left: 20PX;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex: 6;
@@ -33,15 +35,18 @@
 
 .user-card2 {
 
-  
-   
+    position: relative;
+    bottom: 500px;
+    left: 650px;
    
     background-color: #fff;
     border: 2px solid #999;
-    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 5px;
     font-size: 1.2rem;
-    margin-left: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -55,16 +60,15 @@ button{
 }
 
 .user-card3 {
-    position: relative;
-    bottom:20px;
-    left: 900px;
-    width: 250px;
-    padding: 200px;
+    width: 100%;
     background-color: #fff;
     border: 2px solid #999;
     margin-bottom: 20px;
     border-radius: 5px;
     font-size: 1.2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .user-card4 {
@@ -75,6 +79,7 @@ button{
     border-radius: 5px;
     font-size: 1.2rem;
     overflow: hidden;
+    
 }
 .card-header {
     background-color: #17a2b8;
@@ -82,32 +87,37 @@ button{
     width: auto;
     margin-bottom: 70px;
     align-content: stretch;
+
 }
 
 .card-header2 {
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    background-color: #373b3b;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
+    background-color: gray;
+    color: #333;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
   
     
 }
 .card-header3 {
-    display: flex;
-    flex-direction: row;
-    background-color: #373b3b;
-    height: 125px;
-    margin-bottom: 70px;
+    background-color: #eee;
+    color: #333;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
 }
 .card-header4 {
-    display: flex;
-    flex-direction: row;
-    background-color: #373b3b;
-    height: 125px;
-    margin-bottom: 70px;
+    background-color: #eee;
+    color: #333;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
 }
 
 .card-body {
@@ -136,4 +146,14 @@ button{
 
 a {
     color: #3a81e6;
+}
+
+.header{
+    background-color: #333333;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
