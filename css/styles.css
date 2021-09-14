@@ -23,6 +23,7 @@
 
 
 
+
 .user-card {
     width: 100%;
     background-color: #fff;
@@ -69,6 +70,9 @@ button{
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    position: RELATIVE;
+    bottom:500px;
+    left: 660PX;
 }
 
 .user-card4 {
@@ -79,6 +83,11 @@ button{
     border-radius: 5px;
     font-size: 1.2rem;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: RELATIVE;
+    bottom:500px;
+    left: 660PX;
     
 }
 .card-header {
@@ -111,13 +120,12 @@ button{
     margin-right: 10px;
 }
 .card-header4 {
-    background-color: #eee;
-    color: #333;
+    background-color: #333;
+    color:white;
     font-size: 20px;
-    border-radius: 12px;
-    height: 24px;
+    height: 40px;
     padding: 0 10px;
-    margin-right: 10px;
+    
 }
 
 .card-body {
@@ -156,4 +164,18 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.flex-container4{
+position: relative;
+bottom: 950px;
+background-color: #fff;
+border: 2px solid #999;
+border-radius: 5px;
+font-size: 1.2rem;
+
+
+
+
+
 }
